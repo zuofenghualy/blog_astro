@@ -8,6 +8,9 @@ dependencies:
   astro:
     specifier: ^4.5.2
     version: 4.5.2
+  astro-middleware-cn:
+    specifier: ^0.0.2
+    version: 0.0.2(astro@4.5.2)
 
 packages:
 
@@ -805,6 +808,14 @@ packages:
 
   /array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
+    dev: false
+
+  /astro-middleware-cn@0.0.2(astro@4.5.2):
+    resolution: {integrity: sha512-cRHIcnnj8a7d1EoYwa/ITU+8pgb6UgsACf17wgDbJZ962HmeK87LriTCmHQK8ZgC1u9Tc6SCZsfP3tE2UYPWbw==}
+    peerDependencies:
+      astro: '>=3.0.0'
+    dependencies:
+      astro: 4.5.2
     dev: false
 
   /astro@4.5.2:
